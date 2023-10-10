@@ -1,0 +1,5 @@
+package com.spring.basic.board.controller;
+
+public class BoardController {
+
+}

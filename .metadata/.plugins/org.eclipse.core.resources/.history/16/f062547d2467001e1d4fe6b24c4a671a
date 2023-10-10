@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h2>${article.boardNo}번 게시물 내용 수정</h2>
+	<p>
+		# 작성자: ${article.writer} <br>
+		# 제목: ${article.title}<br>
+		# 내용: ${article.content}<br>
+	</p>
+
+	 <div class="btn-group">
+     	<button type = "submit">수정완료</button>
+        <button type = "button" onclick = "history.back()">이전으로</button>
+     </div>
+</body>
+</html>

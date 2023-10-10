@@ -1,0 +1,51 @@
+package com.spring.basic.score.repository;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.spring.basic.score.entity.Score;
+
+import lombok.RequiredArgsConstructor;
+
+@Repository("spring")
+@RequiredArgsConstructor
+public class JdbcTemplate implements IScoreRepository {
+	
+	private final JdbcTemplate template;
+	
+	@Override
+	public List<Score> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void save(Score score) {
+		String sql = "INSERT INTO score"
+				+ " VALUES(score_seq.NEXTVAL, ?, ?, ?, ?, ?, ?, ?)";
+		template.update(sql, score.getStuName(),score.getKor(),score.getEng(),
+						score.getMath(),score.getTotal(),score.getAverage(),
+						String.valueOf(score.getGrade()));
+	}
+
+	@Override
+	public Score findByStuNum(int stuNum) {
+		String sql = "SELECT * FROM score";
+		template.query();
+		return null;
+	}
+
+	@Override
+	public void modify(Score modScore) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteBystuNum(int stuNum) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

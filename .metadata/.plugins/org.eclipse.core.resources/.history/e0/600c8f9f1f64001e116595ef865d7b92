@@ -1,0 +1,5 @@
+package com.spring.basic.board.entity;
+
+public class Board {
+
+}

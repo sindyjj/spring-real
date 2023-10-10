@@ -1,0 +1,19 @@
+
+10월 05, 2023 14:35:57.800 NEW SESSION
+10월 05, 2023 14:35:57.800 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+10월 05, 2023 14:38:16.808 NEW SESSION
+10월 05, 2023 14:38:16.808 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 05, 2023 14:38:35.370 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 05, 2023 14:41:15.902 [3760:12060:1005/144115.902:ERROR:device_event_log_impl.cc(225)] [14:41:15.902] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 05, 2023 15:47:17.692 [3760:12060:1005/154717.692:ERROR:device_event_log_impl.cc(225)] [15:47:17.691] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 05, 2023 16:27:03.365 [3760:12060:1005/162703.364:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 05, 2023 16:30:07.17 [3760:12060:1005/163007.016:ERROR:device_event_log_impl.cc(225)] [16:30:07.017] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+10월 10, 2023 11:51:18.596 NEW SESSION
+10월 10, 2023 11:51:18.596 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 10, 2023 15:33:07.722 [6176:7180:1010/153307.721:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+10월 10, 2023 15:33:07.722 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+10월 10, 2023 15:33:07.722 ERROR: Time is after notAfter
+10월 10, 2023 15:33:07.724 
+10월 10, 2023 15:33:07.724 
