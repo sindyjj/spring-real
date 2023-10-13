@@ -1,5 +1,0 @@
-package com.spring.basic.score.repository;
-
-public interface IScoreMapper {
-
-}
