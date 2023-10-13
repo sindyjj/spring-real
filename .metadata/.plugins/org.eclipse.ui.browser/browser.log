@@ -17,3 +17,9 @@
 10월 10, 2023 15:33:07.722 ERROR: Time is after notAfter
 10월 10, 2023 15:33:07.724 
 10월 10, 2023 15:33:07.724 
+
+10월 11, 2023 09:56:05.911 NEW SESSION
+10월 11, 2023 09:56:05.911 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+10월 13, 2023 09:42:04.781 NEW SESSION
+10월 13, 2023 09:42:04.781 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
