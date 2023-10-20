@@ -13,9 +13,9 @@
   
     나이: <input type="text" name="age"> <br>
 
-    나이: <input type="checkbox" name="hobby" value="soccer"> 축구
-    나이: <input type="checkbox" name="hobby" value="music"> 음악감상
-    나이: <input type="checkbox" name="hobby" value="game"> 게임
+    <input type="checkbox" name="hobby" value="soccer"> 축구
+    <input type="checkbox" name="hobby" value="music"> 음악감상
+    <input type="checkbox" name="hobby" value="game"> 게임
 
     <button type="button" id="send">요청 보내기!</button>
 
@@ -52,10 +52,10 @@
             c. PUT - 수정
             d. DELETE - 삭제
              */
-            xhr.open('POST','/myweb/rest/object');
+            xhr.open('POST','${pageContext.request.contextPath}/rest/object');
 
             // 3. 서버로 전송할 데이터를 제작합니다.
-            // 제작하는 데이터의 형식은 JSON 형태여야 합니다.
+            // 제작하는 데이터의 형식은 JSON(제이쓴) 형태여야 합니다.
             const data = {
                     'name' : name,
                     'age' : age,
