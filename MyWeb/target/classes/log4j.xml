@@ -15,6 +15,44 @@
 		<level value="info" />
 	</logger>
 	
+	<!-- SQL Logger -->
+    
+    <!-- DB 연결에 관련된 이벤트를 기록 (Connection pool 등...) -->
+    <logger name="jdbc.connection" additivity="false">
+        <level value="warn" />
+        <appender-ref ref="console" />
+    </logger>
+    
+    <!-- ResultSet을 제외한 모든 JDBC 호출 내역을 기록. -->
+    <logger name="jdbc.audit" additivity="false">
+        <level value="warn" />
+        <appender-ref ref="console" />
+    </logger>
+    
+    <!-- ResultSet을 포함한 모든 JDBC 호출 내역을 기록 -->
+    <logger name="jdbc.resultset" additivity="false">
+        <level value="warn" />
+        <appender-ref ref="console" />
+    </logger>
+    
+    <!-- SQL문만 기록. (?값이 드러납니다.) -->
+    <logger name="jdbc.sqlonly" additivity="false">
+        <level value="info" />
+        <appender-ref ref="console" />
+    </logger>
+    
+    <!-- table 모양으로 조회된 내용을 기록합니다. -->
+    <logger name="jdbc.resultsettable" additivity="false">
+        <level value="info" />
+        <appender-ref ref="console" />
+    </logger>
+    
+    <!-- 해당 SQL을 실행시키는 데 소요된 시간 정보 기록(밀리초) -->
+    <logger name="jdbc.sqltiming" additivity="false">
+        <level value="info" />
+        <appender-ref ref="console" />
+    </logger>
+	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
 		<level value="info" />
@@ -34,8 +72,11 @@
 
 	<!-- Root Logger -->
 	<root>
-		<priority value="warn" />
+		<priority value="info" />
 		<appender-ref ref="console" />
+		<appender-ref ref="errFile" />
+		<appender-ref ref="rollingFile" />
+		
 	</root>
 	
 </log4j:configuration>

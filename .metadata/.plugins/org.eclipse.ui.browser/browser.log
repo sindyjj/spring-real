@@ -29,3 +29,12 @@
 10월 17, 2023 11:36:43.326 [14056:14912:1017/113643.326:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
 10월 17, 2023 13:07:34.604 [14056:14912:1017/130734.603:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
 10월 17, 2023 18:10:43.649 [14056:14912:1017/181043.647:ERROR:device_event_log_impl.cc(225)] [18:10:43.648] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+10월 23, 2023 11:43:47.416 NEW SESSION
+10월 23, 2023 11:43:47.416 [20404:13688:1023/114347.394:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+10월 24, 2023 10:34:25.212 NEW SESSION
+10월 24, 2023 10:34:25.212 [10708:3076:1024/103425.209:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+10월 24, 2023 11:37:37.647 [10708:3076:1024/113737.645:ERROR:device_event_log_impl.cc(225)] [11:37:37.646] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+10월 24, 2023 16:57:21.988 [10708:3076:1024/165721.988:ERROR:gpu_process_host.cc(990)] GPU process exited unexpectedly: exit_code=34
+10월 24, 2023 17:35:58.205 [10708:3076:1024/173558.203:ERROR:device_event_log_impl.cc(225)] [17:35:58.204] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
